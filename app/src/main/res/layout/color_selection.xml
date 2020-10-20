@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/img_purple"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/img_cyan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_purple"
+        app:layout_constraintTop_toBottomOf="@+id/img_purple"
+        app:srcCompat="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/img_blue"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cyan"
+        app:layout_constraintTop_toBottomOf="@+id/img_cyan"
+        app:srcCompat="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/img_red"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cyan"
+        app:layout_constraintTop_toBottomOf="@+id/img_blue"
+        app:srcCompat="@color/red" />
+
+    <ImageView
+        android:id="@+id/img_yellow"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cyan"
+        app:layout_constraintTop_toBottomOf="@+id/img_red"
+        app:srcCompat="@color/yellow" />
+
+    <ImageView
+        android:id="@+id/img_green"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/img_cyan"
+        app:layout_constraintTop_toBottomOf="@+id/img_yellow"
+        app:srcCompat="@color/green" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
